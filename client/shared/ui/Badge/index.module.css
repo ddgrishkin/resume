@@ -1,0 +1,8 @@
+.container {
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    background: var(--color-zinc-800);
+    color: var(--color-white);
+}
+

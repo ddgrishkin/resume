@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "jsx": "react",
+        "paths": {
+            "@/*": ["./client/*"]
+        }
+    },
+    "include": [
+        "typedefs/**/*",
+        "./client"
+    ]
+}

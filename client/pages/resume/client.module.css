@@ -1,0 +1,35 @@
+html {
+    font-size: 100%;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    color: var(--color-white);
+    background: var(--color-zinc-900);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    flex-flow: column nowrap;
+    gap: 2rem;
+}
+
+@media (max-width: 800px) {
+    .container {
+        padding-top: 2rem;
+    }
+}

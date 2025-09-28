@@ -1,0 +1,29 @@
+.header {
+    text-align: left;
+}
+
+.title,
+.subtitle {
+    font-family: monospace;
+    font-weight: normal;
+    margin: 0;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1rem;
+}
+
+.subtitle:after,
+.subtitle:before {
+    content: "<";
+    color: var(--color-emerald-500);
+}
+
+.subtitle:after {
+    content: " />";
+}

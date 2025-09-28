@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.text {
+    font-family: monospace;
+    font-size: 1rem;
+}
