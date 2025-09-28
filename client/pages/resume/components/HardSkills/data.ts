@@ -33,6 +33,12 @@ export default [
         title: 'SSR',
     },
     {
+        title: 'Linux',
+    },
+    {
+        title: 'Docker',
+    },
+    {
         title: '...',
     },
 ];
