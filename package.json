@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 0",
     "build:client": "NODE_ENV=production webpack --config ./webpack/webpack.client.js",
     "watch:client": "NODE_ENV=development webpack --watch --config ./webpack/webpack.client.js",
     "dev:server": "node ./server/index.js"
