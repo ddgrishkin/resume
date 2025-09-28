@@ -1,6 +1,7 @@
 :root {
     /* Layout */
-    --layout-width: 1080px;
+    --layout-width: 65rem;
+    --global-footer-height: 8rem;
 
     /* Colors */
     --color-white: white;

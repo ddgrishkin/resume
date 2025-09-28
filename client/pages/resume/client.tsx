@@ -6,7 +6,7 @@ import { ProfileImage } from './components/ProfileImage';
 import { Description } from './components/Description';
 import { HardSkills } from './components/HardSkills';
 import { Section } from '@/layout/Section';
-import { BusinessCard } from './components/BusinessCard';
+import { Footer } from './components/Footer';
 
 export function MainPage() {
     return (
@@ -21,11 +21,9 @@ export function MainPage() {
                     <Section label='Ключевые технологии'>
                         <HardSkills />
                     </Section>
-                    <Section label='Контакты'>
-                        <BusinessCard />
-                    </Section>
                 </div>
             </Reducer>
+            <Footer />
         </div>
     );
 }

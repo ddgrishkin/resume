@@ -30,7 +30,9 @@ jobs:
         uses: burnett01/rsync-deployments@7.1.0
         with:
           switches: -avzr --delete
-          path: dist/static/*
+          path: | 
+            dist/static/*
+            public/
           remote_path: /var/www/html/
           remote_host: ${{ secrets.VDS_SELECTEL_HOST }}
           remote_user: ${{ secrets.VDS_SELECTEL_USERNAME }}

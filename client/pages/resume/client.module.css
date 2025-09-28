@@ -10,15 +10,14 @@ html, body {
 }
 
 .container {
+    position: relative;
     width: 100%;
     min-height: 100vh;
     color: var(--color-white);
     background: var(--color-zinc-900);
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    padding-bottom: calc(var(--global-footer-height) + 2rem);
 }
 
 .content {
