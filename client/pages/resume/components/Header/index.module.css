@@ -21,7 +21,7 @@
 .subtitle:after,
 .subtitle:before {
     content: "<";
-    color: var(--color-emerald-500);
+    color: var(--color-rose-800);
 }
 
 .subtitle:after {
