@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    padding: 0 1rem;
+    padding: var(--layout-vertical-padding, 0) var(--layout-horizontal-padding, 1rem);
     box-sizing: border-box;
     max-width: var(--layout-width, auto);
     margin: 0 auto;
